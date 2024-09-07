@@ -3,6 +3,7 @@
 import { Space_Mono } from "next/font/google";
 import "./globals.css";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { NextUIProvider } from "@nextui-org/react";
 
 const space_mono = Space_Mono({ weight: ["400", "700"], subsets: ["latin"] });
 
@@ -25,7 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <QueryClientProvider client={queryClient}>
         <body className={space_mono.className}>
-          {children}
+          <NextUIProvider>
+            {children}
+          </NextUIProvider>
         </body>
       </QueryClientProvider>
     </html>
