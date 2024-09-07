@@ -20,7 +20,7 @@ Requirements:
 
 Additional Criteria:
 
-1. Humor - we all need a good laugh to get us through the first week of school
+1. Humor - we all need a good laugh to get us through the first week of sc hool
 2. Additional Features - did your team create additional endpoints, enhance the frontend, etc.
 
 Final Note:
