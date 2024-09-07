@@ -17,3 +17,4 @@ frontend/*.pem
 frontend/*.tsbuildinfo
 frontend/next-env.d.ts
 frontend/.next
+frontend/pnpm-lock.yaml
